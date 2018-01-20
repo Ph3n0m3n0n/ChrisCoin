@@ -13,3 +13,4 @@ class Block{
         return SHA256(this.index + this.timestamp + this.previousHash + JSON.stringify(this.data)).toString();
     }
 }
+
