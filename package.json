@@ -1,0 +1,11 @@
+{
+  "name": "chriscoin",
+  "version": "1.0.0",
+  "description": "A mock blockchain to teach blockchain fundamentals to a coding community.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kantaris Innovations",
+  "license": "ISC"
+}
