@@ -53,6 +53,7 @@ class Blockchain{
 }
 
 let ChrisCoin = new Blockchain();
+
 ChrisCoin.addBlock(new Block(1, "20/07/2017", { amount: 4 }));
 ChrisCoin.addBlock(new Block(2, "20/07/2017", { amount: 8 }));
 
@@ -65,6 +66,6 @@ ChrisCoin.chain[1].data = { amount: 100 };
 
 console.log("Blockchain valid? " + ChrisCoin.verifyChain());
 
-console.log(JSON.stringify(chrisCoin, null, 4));
+console.log(JSON.stringify(ChrisCoin, null, 4));
 
 // console.log(JSON.stringify(ChrisCoin, null, 4));
